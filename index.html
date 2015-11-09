@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+        <title></title>
+    </head>
+    <body>
+
+        <h1>File uploader!</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6"><input id="fileInput" type="file" name="files[]" accept="text/csv"></div>
+                <div class="col-sm-6"><button id="btnFile">Upload...!</button></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="output"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-2.1.4.min.js"></script>
+        <script src="js/vendor/jquery.csv.js"></script>
+        <script src="js/filehandler.js" type="application/javascript"></script>
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

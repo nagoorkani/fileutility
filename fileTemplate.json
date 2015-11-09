@@ -1,0 +1,60 @@
+{
+    "type1": {
+        "fileType": "type1",
+        "columns": [
+            {
+                "name": "col1",
+                "title": "Column 1",
+                "type": "number"
+            },
+            {
+                "name": "col2",
+                "title": "Column 2",
+                "type": "string"
+            }
+        ],
+        "primaryKey": 1
+    },
+    "type2": {
+        "fileType": "type2",
+        "columns": [
+            {
+                "name": "col1",
+                "title": "Column 1",
+                "type": "number"
+            },
+            {
+                "name": "col2",
+                "title": "Column 2",
+                "type": "number"
+            }
+        ],
+        "primaryKey": 1
+    },
+    "employee": {
+        "fileType": "employee",
+        "columns":[
+            {
+                "name": "id",
+                "title": "employee id",
+                "type": "number"
+            },
+            {
+                "name": "name",
+                "title": "employee name",
+                "type": "string"
+            },
+            {
+                "name": "salary",
+                "title": "salary",
+                "type": "number"
+            },
+            {
+                "name": "deptno",
+                "title": "deptno",
+                "type": "number"
+            }
+        ],
+        "primaryKey": 1
+    }
+}
